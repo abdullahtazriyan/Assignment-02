@@ -1,0 +1,341 @@
+body{
+    background-color:rgb(0, 0, 0);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+nav ul li{
+list-style: none;
+display: inline;
+margin-right: 30px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+ul{
+    border: .5px solid rgb(53, 52, 52);
+    border-radius: 15px;
+    font-size: large;
+    padding: 5px;
+}
+
+.home{
+    background-color: #E6533C;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+.head-title{
+    color: white;
+    width: 450px;
+    height: 272px;
+    font-weight: 900;
+    font-size: 70px;
+    font-style: normal;
+}
+
+.ubtn{
+    display: flex;
+    align-items: center;
+    width: 175px;
+    height: 90px;
+    position: relative;
+    bottom: 175px;
+    left: 90px;
+    background-color: rgba(48, 48, 48, 0.54);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.ubtn img{
+    width: 25%;
+}
+
+.new-btn{
+    width: 175px;
+    height: 90px;
+    position: relative;
+    left: 410px;
+    bottom: 355px;
+    background-color: rgba(48, 48, 48, 0.54);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.title{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.section1{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+.habits img{
+    border-radius: 50%;
+}
+.habits h2 p{
+    text-align: center;
+}
+
+.habit-main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.section2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #424246;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 100px;
+}
+
+.run-img img{
+    width: 60%;
+    border-radius: 20px;
+}
+
+.run{
+    width: 60%;
+}
+
+.section3{
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+}
+
+.Trainings img{
+    width: 100%;
+    height: 190px;
+    
+}
+
+.Trainings{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.description{
+   color:#8f8f9d ; 
+}
+
+.p-btn{
+    width: 165px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+
+
+.bg{
+ margin-right: -200px;
+}
+
+.img1{
+    margin-top: 220px;
+    /* margin-right: 50px; */
+}
+
+table{
+    border: 1px solid white;
+    color: aliceblue;
+    padding: 30px;
+    margin: 20px;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(54, 52, 52);
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    align-items: center;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 30%;
+    background-color: rgb(54, 52, 52);
+}
+
+#input1{
+    width: 190%;
+}
+
+.text-align{
+    text-align: center;
+    color: white;
+}
+
+.section5{
+    background-color:black;
+}
+
+.trainer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 1px solid black;
+    background-color: #2e2c2ca1;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.trainer img{
+    width: 90%;
+    border-radius: 15px;
+}
+
+.trainer-2nd{
+    font-style: normal;
+    position: relative;
+    top: -100px;
+    color: white;
+    text-align: start;
+    right: -30px;
+
+}
+
+.section5{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    padding: 60px;
+}
+
+.fot{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.Fitness{
+    color: #E6533C;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+li{
+    list-style: none;
+    color: rgb(73, 72, 72);
+    font-size: 25px;
+}
+
+.Challenge{
+display: flex;
+justify-content: space-around;
+gap: 30px;
+box-shadow: 15px 15px 15px green;
+}
+
+.card{
+    border: 1px solid rgb(241, 238, 238);
+    border-radius: 10px;
+    background-color: rgb(194, 188, 180);
+    padding: 30px;
+    margin: 20px;
+}
+
+.card img{
+width: 50%;
+height: 150px;
+border-radius: 20px;
+}
+
+@media screen and (max-width:576px) {
+
+    header{
+        flex-direction: column;
+    }
+    .section{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .trainer{
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+    }
+
+    .habit-main{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section2{
+        flex-wrap: wrap;
+    }
+
+    .Trainings{
+        grid-template-columns: repeat(2,1fr);
+        width: 300px;
+    }
+
+    .section4{
+        flex-direction: column;
+    }
+
+    .section5{
+        flex-direction: column;
+    }
+    
+    .Challenge{
+    flex-direction: column;
+    }
+}
+    
+
+
